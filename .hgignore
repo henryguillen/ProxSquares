@@ -1,0 +1,20 @@
+# use glob syntax
+syntax: glob
+*.ncb
+*.suo
+*.csproj.user
+*.dbproj.user
+*.sqlproj.user
+*.vspscc
+*.dbmdl
+*.dbproj.schemaview
+
+syntax: regexp
+/obj/*
+/bin/*
+/Bin/*
+/Debug/*
+/Release/*
+/Sandbox/*
+/sql/debug/*
+/TestResults/*
